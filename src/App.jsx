@@ -1,8 +1,7 @@
 // Write your Color component here
 import { userState } from "react";
 
-//Error on line 4 due to 'color' and 'setFunction' for missing props. Need feed back on how to fix it -Franky
-//update
+
 const Color = ({ color, setFunction }) => {
   const [selected, setSelected] = userState("");
   return (
